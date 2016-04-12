@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace SportsStore.Domain.Concrete
 {
-    class FakeProductRepository : IProductRepository
+    public class FakeProductsRepository : IProductsRepository
     {
         private static IQueryable<Product> fakeProducts = new List<Product>
         {

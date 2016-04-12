@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace SportsStore.Domain.Abstract
 {
-    interface IProductRepository
+    public interface IProductsRepository
     {
         IQueryable<Product> Products { get; }
     }
